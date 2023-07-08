@@ -41,15 +41,33 @@
         <ul>
           <li>
             App (root component)
-   ├─ TodoList
-   │  └─ TodoItem
-   │     ├─ TodoDeleteButton
-   │     └─ TodoEditButton
-   └─TodoFooter
-     ├─ TodoClearButton
-     └─ TodoStatistics
+       1.TodoList
+           TodoItem
+              TodoDeleteButton
+              TodoEditButton
+        2.TodoFooter
+           TodoClearButton
+           TodoStatistics
           </li>
         </ul>
+     </p>
+     <br>
+     <h2>Mounting the App</h2>
+     <p>
+       An application won't render anything until its .mount() its called.
+       It expects a "container" argment which can either be an actual DOM element
+       or a selector string, example 
+        <ul>
+          <li>
+            div id="app" div
+            <br>
+            app.mount('#app')
+          </li>
+        </ul>
+     </p>
+     <h2>In-DOM Root Component</h2>
+     <p>The template for the root element is usually part of the component
+      
      </p>
     </div>
    </div>
@@ -69,7 +87,7 @@
 
   .myname {
     font-size: 18px;
-    color: #777;
+    color: #242222;
     margin-bottom: 20px;
   }
 
