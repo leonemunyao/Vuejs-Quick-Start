@@ -56,7 +56,48 @@
 </template>
 
 <style scoped>
+  .main {
+    text-align: center;
+    margin: 20px;
+  }
 
-  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
 
+  .myname {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+
+  .blog {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
 </style>
