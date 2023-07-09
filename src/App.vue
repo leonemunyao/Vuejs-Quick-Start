@@ -66,8 +66,9 @@
         </ul>
      </p>
      <h2>In-DOM Root Component</h2>
-     <p>The template for the root element is usually part of the component
-      
+     <p>The template for the root element is usually part of the component is usually part of the component itself 
+         
+       
      </p>
     </div>
    </div>
