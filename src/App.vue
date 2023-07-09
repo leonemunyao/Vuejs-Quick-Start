@@ -66,9 +66,27 @@
         </ul>
      </p>
      <h2>In-DOM Root Component</h2>
-     <p>The template for the root element is usually part of the component is usually part of the component itself 
-         
-       
+     <p>The template for the root element is usually part of the component is usually part of the component itself, 
+         but it is also possible to provide the template seperately by writing it directly inside the mount container.
+        example, 
+          <ul>
+            <li>
+              div id="app"
+               button @click="count++"  {{ count }} button 
+               <br>
+               <br>
+               import { createApp } from 'vue'
+               <br>
+               const app = createApp ({
+                data() {
+                  return {
+                    count: 0
+                  }
+                }
+               })
+               app.nount(#'app')
+            </li>
+          </ul>
      </p>
     </div>
    </div>
