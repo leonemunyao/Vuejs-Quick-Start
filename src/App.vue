@@ -84,7 +84,7 @@
                   }
                 }
                })
-               app.nount(#'app')
+               app.mount(#'app')
             </li>
           </ul>
      </p>
